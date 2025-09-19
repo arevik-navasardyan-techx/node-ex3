@@ -13,7 +13,7 @@ A simple Node.js + Express project demonstrating a layered architecture with:
 **Models** → describe object shapes (DTOs)
 
 ## Project Structure
-
+```
 hotel-management/
 │── server.js # App entrypoint
 │
@@ -50,6 +50,7 @@ hotel-management/
 │
 └── utils/
 └── http-errors.js
+```
 
 ## Setup& Run
 
