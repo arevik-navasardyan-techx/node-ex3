@@ -1,0 +1,23 @@
+### Create new guest
+POST http://localhost:3000/api/guests
+Content-Type: application/json
+
+{
+  "first_name": "Karen",
+  "last_name": "Mkrtchyan",
+  "email": "karen@example.com",
+  "phone": "+37499998877",
+  "room_n": 2,
+  "cleaned_at": "2025-09-10T10:00:00Z"
+}
+
+### Update guest
+PATCH http://localhost:3000/api/guests/1
+Content-Type: application/json
+
+{
+  "phone": "+37411112233"
+}
+
+### Delete guest
+DELETE http://localhost:3000/api/guests/1

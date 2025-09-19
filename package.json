@@ -1,0 +1,21 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "A simple REST API for managing hotel guests, rooms, and bookings using Node.js and Express.   Data is stored in memory (no database required).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
